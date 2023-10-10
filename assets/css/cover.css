@@ -1,0 +1,12 @@
+.cover{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
+    
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}

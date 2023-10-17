@@ -1,0 +1,115 @@
+/* CSS Reset Code */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+    vertical-align: baseline;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  img {
+    border: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  /* ----------------------------------------------------- */
+
+body{
+    background-color: #D9CDF7;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    flex: 1;
+    margin: auto 0;
+
+}
+.col-left{
+    align-items: center;
+    justify-content: center;
+}
+.col-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 80%;
+    align-self: flex-end;
+
+}
+#vector{
+    width: 50px;
+    margin: 0 10%;
+}
+.x{
+    align-self: flex-end;
+    margin: 0 10%;
+}
+.describe{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    margin: 5% 0;
+}
+.describe p{
+    margin: 3% 0;
+    color: #271A45;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+}
+#id{
+    font-size: 10px;
+    font-weight: 300;
+}
+.describe h2{
+    margin: 3% 0;
+    color: #271A45;
+    font-family: Crimson Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+}
+
+button{
+    display: flex;
+    width: 30%;
+    background-color: #D9CDF7;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 0.5px solid #271A45;
+    padding: 8px 16px;
+    justify-content: center;
+}

@@ -113,3 +113,37 @@ button{
     padding: 8px 16px;
     justify-content: center;
 }
+@media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .col {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .col-left {
+      justify-content: center;
+    }
+  
+    .col-rigth {
+      align-items: center;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .x {
+      margin: 0;
+    }
+  
+    .describe {
+      align-self: center;
+      margin: 0;
+    }
+  }
+  

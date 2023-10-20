@@ -1,0 +1,66 @@
+:root{
+    --background-primary: #0B0911;
+    --background-secondary: #130F1E;
+    --background-table-header: #1C162C;
+    --text-color-primary: #FFF;
+
+}
+
+
+.left{
+    background-color: var(--background-primary);
+}
+.table{
+    display: flex;
+    flex-direction: column;
+}
+
+.th{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-top{
+    color: var(--text-color-primary);
+}
+
+.tb{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-left{
+    background-color: var(--background-secondary);
+}
+
+.col-rigth{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+
+}
+
+
+
+
+
+.txt-left{
+
+}
+
+.rigth{
+
+}
+.menu-icon{
+
+}
+.menu-text{
+
+}

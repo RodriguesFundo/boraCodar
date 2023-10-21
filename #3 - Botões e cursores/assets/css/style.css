@@ -6,16 +6,48 @@
 
 }
 
+body{
+    height: 100vh;
+    background-color: var(--background-primary);
+    color: var(--text-color-primary);
+}
 main{
     display: flex;
     flex-direction: row;
     width: 100%;
     margin: 0 auto;
 }
-.left{
-    background-color: var(--background-primary);
-    flex: 1;
+h1{
+    color: var(--text-color-primary);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    margin: 1% 0;
 }
+h2{
+    color: var(--text-color-primary);
+    font-family: Roboto;
+    font-size: 19.206px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1% 0;
+
+}
+.left{
+    flex: 1;
+    margin: 2% 1%;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    /* padding: 5% 0; */
+    margin: 1% 0;
+}
+
 .table{
     display: flex;
     flex-direction: column;
@@ -65,24 +97,29 @@ main{
     flex-direction: row;
     margin: 1% 0;
     flex: 1;
-    border: dashed blue;
+    align-items: center;
+    justify-content: space-around;
+    
 
 }
 button{
     display: flex;
     padding: 12px 24px;
     margin: 1% 3%;
-
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 24px;
     background: #8257E5;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
 }
 
-.text{
-
-}
 
 
 
@@ -94,10 +131,30 @@ button{
 
 .rigth{
     /* flex: 35%; */
-}
-.menu-icon{
+    background-color: var(--background-secondary);
+    
 
 }
+
+
+section.rigth button:nth-child(2) {
+    color: var(--text-color-primary); 
+  }
+  
+  /* Estilo para o segundo botão */
+  section.rigth button:nth-child(3) {
+    color: var(--text-color-primary); 
+    background-color: #3C3748; 
+
+  }
+  
+  /* Estilo para o terceiro botão (com o SVG) */
+  section.rigth button:nth-child(4) {
+    background-color: var(--background-secondary); 
+
+    color: var(--text-color-primary); 
+  }
+  
 .menu-text{
 
 }

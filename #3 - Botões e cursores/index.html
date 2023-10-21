@@ -6,11 +6,15 @@
     <title>Botões e cursores - Desafio #3</title>
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <main>
         <section class="left">
-            <div class="text"></div>
+            <div class="text">
+                <h1>Tipos de botão</h1>
+                <h2>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades.</h2>
+            </div>
             <div class="table">
                 <div class="th">
                     <p class="txt-top">Botão primário</p>
@@ -29,9 +33,9 @@
                     </div>
                     <div class="col-rigth">
                         <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
+                            <button>Default Primary</button>
+                            <button>Default Secondary</button>
+                            <button>Default Tertiary</button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.204468 16.015V0L11.7955 11.619H5.01447L4.60347 11.743L0.204468 16.015Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28895 16.6893L5.68395 18.2243L1.00195 7.13528L4.68795 5.58228L9.28895 16.6893Z" fill="white"/>
@@ -40,20 +44,9 @@
                               </svg>
                         </div>
                         <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.204468 16.015V0L11.7955 11.619H5.01447L4.60347 11.743L0.204468 16.015Z" fill="white"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28895 16.6893L5.68395 18.2243L1.00195 7.13528L4.68795 5.58228L9.28895 16.6893Z" fill="white"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.95547 16.0086L6.11147 16.7826L3.01147 9.40861L4.85248 8.63361L7.95547 16.0086Z" fill="black"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.20447 2.4071V13.5951L4.17347 10.7291L4.60147 10.5901H9.36947L1.20447 2.4071Z" fill="black"/>
-                            </svg>
-                        </div>
-                        <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
+                            <button>Hover Primary</button>
+                            <button>Hover Secondary</button>
+                            <button>Hover Tertiary</button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.204468 16.015V0L11.7955 11.619H5.01447L4.60347 11.743L0.204468 16.015Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28895 16.6893L5.68395 18.2243L1.00195 7.13528L4.68795 5.58228L9.28895 16.6893Z" fill="white"/>
@@ -62,15 +55,34 @@
                               </svg>
                         </div>
                         <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
+                            <button>Focus Primary</button>
+                            <button>Focus Secondary</button>
+                            <button>Focus Tertiary</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.204468 16.015V0L11.7955 11.619H5.01447L4.60347 11.743L0.204468 16.015Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28895 16.6893L5.68395 18.2243L1.00195 7.13528L4.68795 5.58228L9.28895 16.6893Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.95547 16.0086L6.11147 16.7826L3.01147 9.40861L4.85248 8.63361L7.95547 16.0086Z" fill="black"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.20447 2.4071V13.5951L4.17347 10.7291L4.60147 10.5901H9.36947L1.20447 2.4071Z" fill="black"/>
+                              </svg>
+                        </div>
+                        <div class="row">
+                            <button>Disabled Primary</button>
+                            <button>Disabled Secondary</button>
+                            <button>Disabled Tertiary</button>
                             <img src="./assets/icon/notallowed.png" alt="not Allowed image" style="width: 14.525px; height: 24px;" >
                         </div>
                         <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
+                            <button>
+                                <img src="./assets//icon/loading.png" alt="Loading icon">
+                                Loading Primary</button>
+                            <button>
+                                <img src="./assets//icon/loading.png" alt="Loading icon">
+                                Loading Secondary
+                            </button>
+                            <button>
+                                <img src="./assets//icon/loading.png" alt="Loading icon">
+                                Loading Tertiary
+                            </button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 16V0L12.1 11.6H5.1L4.9 11.7L0.5 16Z" fill="white"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 2.40002V13.6L4.5 10.7L4.6 10.6H9.6L1.5 2.40002Z" fill="black"/>
@@ -104,9 +116,30 @@
                                 </svg>
                         </div>
                         <div class="row">
-                            <button>TextButton</button>
-                            <button>TextButton</button>
-                            <button>TextButton</button>
+                            <button> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 12C3.75 11.4305 4.21171 10.9688 4.78125 10.9688H19.2188C19.7883 10.9688 20.25 11.4305 20.25 12C20.25 12.5695 19.7883 13.0312 19.2188 13.0312H4.78125C4.21171 13.0312 3.75 12.5695 3.75 12Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 8.25C3.75 7.68046 4.21171 7.21875 4.78125 7.21875H19.2188C19.7883 7.21875 20.25 7.68046 20.25 8.25C20.25 8.81954 19.7883 9.28125 19.2188 9.28125H4.78125C4.21171 9.28125 3.75 8.81954 3.75 8.25Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 15.75C3.75 15.1805 4.21171 14.7188 4.78125 14.7188H19.2188C19.7883 14.7188 20.25 15.1805 20.25 15.75C20.25 16.3195 19.7883 16.7812 19.2188 16.7812H4.78125C4.21171 16.7812 3.75 16.3195 3.75 15.75Z" fill="white"/>
+                                </svg>
+                                Movable Primary
+                            </button>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 12C3.75 11.4305 4.21171 10.9688 4.78125 10.9688H19.2188C19.7883 10.9688 20.25 11.4305 20.25 12C20.25 12.5695 19.7883 13.0312 19.2188 13.0312H4.78125C4.21171 13.0312 3.75 12.5695 3.75 12Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 8.25C3.75 7.68046 4.21171 7.21875 4.78125 7.21875H19.2188C19.7883 7.21875 20.25 7.68046 20.25 8.25C20.25 8.81954 19.7883 9.28125 19.2188 9.28125H4.78125C4.21171 9.28125 3.75 8.81954 3.75 8.25Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 15.75C3.75 15.1805 4.21171 14.7188 4.78125 14.7188H19.2188C19.7883 14.7188 20.25 15.1805 20.25 15.75C20.25 16.3195 19.7883 16.7812 19.2188 16.7812H4.78125C4.21171 16.7812 3.75 16.3195 3.75 15.75Z" fill="white"/>
+                                </svg>
+                                Movable Secondary
+                            </button>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 12C3.75 11.4305 4.21171 10.9688 4.78125 10.9688H19.2188C19.7883 10.9688 20.25 11.4305 20.25 12C20.25 12.5695 19.7883 13.0312 19.2188 13.0312H4.78125C4.21171 13.0312 3.75 12.5695 3.75 12Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 8.25C3.75 7.68046 4.21171 7.21875 4.78125 7.21875H19.2188C19.7883 7.21875 20.25 7.68046 20.25 8.25C20.25 8.81954 19.7883 9.28125 19.2188 9.28125H4.78125C4.21171 9.28125 3.75 8.81954 3.75 8.25Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 15.75C3.75 15.1805 4.21171 14.7188 4.78125 14.7188H19.2188C19.7883 14.7188 20.25 15.1805 20.25 15.75C20.25 16.3195 19.7883 16.7812 19.2188 16.7812H4.78125C4.21171 16.7812 3.75 16.3195 3.75 15.75Z" fill="white"/>
+                                </svg>
+                                Movable Tertiary
+                            </button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0005 4.987H11.0005V5.987H10.0005V4.987ZM11.0005 10.987H10.0005V9.987H11.0005V10.987ZM6.0005 5.987H5.0005V4.987H6.0005V5.987ZM6.0005 10.987H5.0005V9.987H6.0005V10.987ZM8.0005 0L0.0155029 7.988L5.2375 13.209L8.0005 15.972L15.9845 7.987L8.0005 0Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M14.567 7.98417L12.01 5.17517V7.00417H8.00096H3.99996V5.17517L1.42896 7.98417L4.00095 10.7922L3.99996 8.98417H8.00096H12.01L12.009 10.7922L14.567 7.98417Z" fill="black"/>
@@ -120,14 +153,18 @@
         <section class="rigth">
             <div>
                 <h1>Teste os botões</h1>
-                <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
+                <h2>Interaja com os botões e observe a mudança de aparência e de cursores</h2>
             </div>
             <button>Interaja comigo</button>
             <button>Interaja comigo</button>
-            <div>
-                <img src="" alt="menu-icon" class="menu-icon">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 12C3.75 11.4305 4.21171 10.9688 4.78125 10.9688H19.2188C19.7883 10.9688 20.25 11.4305 20.25 12C20.25 12.5695 19.7883 13.0312 19.2188 13.0312H4.78125C4.21171 13.0312 3.75 12.5695 3.75 12Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 8.25C3.75 7.68046 4.21171 7.21875 4.78125 7.21875H19.2188C19.7883 7.21875 20.25 7.68046 20.25 8.25C20.25 8.81954 19.7883 9.28125 19.2188 9.28125H4.78125C4.21171 9.28125 3.75 8.81954 3.75 8.25Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 15.75C3.75 15.1805 4.21171 14.7188 4.78125 14.7188H19.2188C19.7883 14.7188 20.25 15.1805 20.25 15.75C20.25 16.3195 19.7883 16.7812 19.2188 16.7812H4.78125C4.21171 16.7812 3.75 16.3195 3.75 15.75Z" fill="white"/>
+                  </svg>
                 <span class="menu-text">Interaja comigo</span>
-            </div>
+            </button>
         </section>
     </main>
 </body>

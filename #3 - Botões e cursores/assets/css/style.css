@@ -44,8 +44,9 @@ h2{
 .text{
     display: flex;
     flex-direction: column;
-    /* padding: 5% 0; */
+    padding: 0 5% ;
     margin: 1% 0;
+
 }
 
 .table{
@@ -130,16 +131,25 @@ button{
 }
 
 .rigth{
-    /* flex: 35%; */
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-secondary);
-    
+    align-items: center;
 
 }
 
-
+section.rigth div{
+    margin: 7%;
+    
+}
 section.rigth button:nth-child(2) {
     color: var(--text-color-primary); 
-  }
+    display: flex;
+    width: 317px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+}
   
   /* Estilo para o segundo botão */
   section.rigth button:nth-child(3) {

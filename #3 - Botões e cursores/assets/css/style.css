@@ -48,21 +48,22 @@ main{
 .col-left{
     background-color: var(--background-secondary);
     border: solid forestgreen;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .col-rigth{
     display: flex;
     flex-direction: column;
     border: solid orange;
-    flex: 1;
+    flex-grow: 1;
+
 
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    margin: 2% 0;
+    margin: 1% 0;
     flex: 1;
     border: dashed blue;
 
@@ -70,6 +71,8 @@ main{
 button{
     display: flex;
     padding: 12px 24px;
+    margin: 1% 3%;
+
     justify-content: center;
     align-items: center;
     gap: 8px;
